@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Keansburg DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Keansburg Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2320,
+  "height": 2066,
+  "nodata": -999999,
+  "minMeters": -3.844,
+  "maxMeters": 8.971,
+  "meanMeters": 2.498,
+  "stdDevMeters": 1.138,
+  "minFeet": -12.61154855638,
+  "maxFeet": 29.432414698045,
+  "webMercatorBounds": [
+    -8254133.822589,
+    4929418.121194,
+    -8250598.142589,
+    4932566.705194
+  ],
+  "leafletBounds": [
+    [
+      40.4354183,
+      -74.1481457
+    ],
+    [
+      40.456935,
+      -74.1163915
+    ]
+  ],
+  "files": {
+    "demCog": "keansburg_dem_5ft_cog.tif",
+    "hillshadeCog": "keansburg_hillshade_cog.tif",
+    "hillshadePng": "keansburg_hillshade.png",
+    "boundaryGeojson": "keansburg_boundary.geojson"
+  }
+}
